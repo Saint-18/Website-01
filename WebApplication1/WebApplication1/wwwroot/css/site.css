@@ -9,7 +9,7 @@ a.navbar-brand {
 
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+    color: #800080; /*0366d6 is original*/
 }
 
 .btn-primary {
@@ -19,9 +19,9 @@ a {
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+    color: #0066cc;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
 }
 
 /* Sticky footer styles
@@ -34,6 +34,8 @@ html {
     font-size: 16px;
   }
 }
+
+
 
 .border-top {
   border-top: 1px solid #e5e5e5;

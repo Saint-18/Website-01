@@ -1,10 +1,35 @@
 ﻿@page
 @model IndexModel
 @{
+
     ViewData["Title"] = "Home page";
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p> Hello </p>
+
+    <form method="post">
+        <p>
+            Enter first number:
+            <input asp-for="num1">
+            Enter second number:
+            <input asp-for="num2">
+
+            <input id="sumbit" type="submit" value="Calculate" />
+        </p>
+
+
+    </form>
+
+    
+    <p>
+        Answer:
+        <label asp-for="num3"> @Model.num3   </label>
+
+
+    </p>
+    
+
+
+
 </div>
